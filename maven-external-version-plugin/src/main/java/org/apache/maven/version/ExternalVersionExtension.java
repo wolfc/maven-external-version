@@ -56,20 +56,21 @@ import java.util.regex.Pattern;
 
 /**
  * Maven Extension that will update all the projects in the reactor with an externally managed version.
- * <p/>
+ * <p>
  * This extension MUST be configured as a plugin in order to be configured.
- * <p/>
+ * <pre>{@code
  * <plugin>
- * <groupId>org.apache.maven.plugins</groupId>
- * <artifactId>maven-external-version-plugin</artifactId>
- * <extensions>true</extensions>
- * <configuration>
- * <strategy hint="file">
- * <versionFilePath>VERSION</versionFilePath>
- * </strategy>
- * </configuration>
+ *   <groupId>org.apache.maven.plugins</groupId>
+ *   <artifactId>maven-external-version-plugin</artifactId>
+ *   <extensions>true</extensions>
+ *   <configuration>
+ *     <strategy hint="file">
+ *     <versionFilePath>VERSION</versionFilePath>
+ *   </strategy>
+ *   </configuration>
  * </plugin>
- * <p/>
+ * }</pre>
+ * <p>
  * 'strategy' - The configuration for an ExternalVersionStrategy.
  * 'hint' -  A component hint to load the ExternalVersionStrategy.
  *
