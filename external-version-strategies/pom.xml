@@ -23,18 +23,18 @@
     <parent>
         <groupId>org.apache.maven.version</groupId>
         <artifactId>maven-external-version</artifactId>
-        <version>0.1.0-jboss-3</version>
+        <version>0.1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>external-version-strategies</artifactId>
-    <version>0.1.0-jboss-3</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <dependencies>
 
         <dependency>
             <groupId>org.apache.maven.version</groupId>
             <artifactId>external-version-api</artifactId>
-            <version>0.1.0-jboss-3</version>
+            <version>0.1.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
