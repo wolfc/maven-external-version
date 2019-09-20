@@ -64,6 +64,15 @@
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-external-version-plugin</artifactId>
+                    <version>0.1.0-jboss-4</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <strategy hint="script"/>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
                     <configuration>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -84,6 +93,7 @@
                                 <excludes>
                                     <exclude>.checkstyle</exclude>
                                     <exclude>DEPENDENCIES</exclude>
+                                    <exclude>pom.xml.new-version</exclude>
                                     <exclude>**/src/it/**</exclude>
                                     <exclude>README.md</exclude>
                                 </excludes>
