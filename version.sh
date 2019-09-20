@@ -16,4 +16,4 @@
 # specific language governing permissions and limitations
 # under the License.
 set -e
-git describe --tags --always --dirty=-dirty
+git describe --tags --always --dirty=-SNAPSHOT

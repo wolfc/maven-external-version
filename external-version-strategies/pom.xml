@@ -23,18 +23,17 @@
     <parent>
         <groupId>org.apache.maven.version</groupId>
         <artifactId>maven-external-version</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
+        <version>git</version>
     </parent>
 
     <artifactId>external-version-strategies</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
 
     <dependencies>
 
         <dependency>
             <groupId>org.apache.maven.version</groupId>
             <artifactId>external-version-api</artifactId>
-            <version>0.1.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
