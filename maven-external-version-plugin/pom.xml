@@ -17,20 +17,18 @@
   ~ specific language governing permissions and limitations
   ~ under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.apache.maven.version</groupId>
         <artifactId>maven-external-version</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
+        <version>0.1.0-jboss-1</version>
     </parent>
 
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-external-version-plugin</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.0-jboss-1</version>
 
     <packaging>maven-plugin</packaging>
 
@@ -61,12 +59,12 @@
         <dependency>
             <groupId>org.apache.maven.version</groupId>
             <artifactId>external-version-api</artifactId>
-            <version>0.1.1-SNAPSHOT</version>
+            <version>0.1.0-jboss-1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.version</groupId>
             <artifactId>external-version-strategies</artifactId>
-            <version>0.1.1-SNAPSHOT</version>
+            <version>0.1.0-jboss-1</version>
         </dependency>
 
     </dependencies>
